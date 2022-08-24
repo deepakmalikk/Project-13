@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.top-section {
+    background-color: #7030CC;
+    border: 1px solid #7030CC;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.white-logo {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 130px;
+    margin-right: 30px;
+    margin-top: 35px;
+    color: #D2BEEF;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.list-item {
+    margin-left: 50px;
+}
+
+.list-item:hover {
+    color: #25AAEA;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.nav-btn {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.free-trial {
+    background-color: #1BBCEF;
+    border: 1px solid #1BBCEF;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 200;
+}
+
+.hero-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+
+}
+
+.hero-left {
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 160px;
+}
+
+.hero-heading {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-subheading {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero-right {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.saas-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+.saas-left {
+    width: 50%;
+}
+
+.saas-right {
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 130px
+}
+
+.saas-heading {
+    font-size: 30px;
+    font-weight: 600;
+    width: 80%
+}
+
+.saas-subheadings {
+    margin-left: 10px;
+
+
+}
+
+.saas-benfit-subheading {
+    margin-top: 15px;
+}
+
+.saas-head {
+    margin-top: 50px;
+
+}
+
+.top {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.top>img {
+    height: 30px;
+}
+
+.saas-benfit-subheading {
+    margin-left: 30px;
+    width: 80%;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.saas-footer {
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.saas-footer-heading {
+
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.saas-footer-heading h2 {
+    width: 30%;
+    text-align: center;
+}
+
+.saas-footer-cards {
+    display: flex;
+    margin-left: 80px;
+}
+
+.card-1 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+}
+
+.html-img {
+    height: 60px;
+    background: #FAEAEB;
+    border: 28px solid #FAEAEB;
+    border-radius: 45px;
+
+}
