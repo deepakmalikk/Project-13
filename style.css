@@ -206,6 +206,7 @@
     height: 50px;
 }
 .active{
+    width: 240px;
     height: 110px;
     margin-top: 30px;
     background-color: #6429B7;
