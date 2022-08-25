@@ -150,8 +150,9 @@
 }
 
 .saas-footer {
-    width: 100vw;
+    width: 100%;
     margin-top: 30px;
+    padding-bottom: 80px;
 }
 
 .saas-footer-heading {
@@ -170,25 +171,64 @@
 
 .saas-footer-cards {
     display: flex;
-    margin-left: 80px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    margin-left: 60px;
 }
 
-.card-1 {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    width: 250px;
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 1px 4px;
+    width: 240px;
+    height: 240px;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
-    border-radius: 5px;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.card-top{
+    margin-top: 20px;
+}
+.image-circle{
+    background-color: #dfcdcf;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #dfcdcf;
+    border-radius: 50px;
 }
 
-.html-img {
-    height: 60px;
-    background: #FAEAEB;
-    border: 28px solid #FAEAEB;
-    border-radius: 45px;
+.img {
+    margin-top: 20px;
+    height: 50px;
+}
+.active{
+    height: 110px;
+    margin-top: 30px;
+    background-color: #6429B7;
+    border: 1px solid #6429B7;
+    border-radius: 30px;
+    color: #ffffff;
+}
+.card-heading{
+    font-size: 23px;
+}
+.card-subheading{
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.card-bottom{
+    margin-top: 20px;
+   
+    border: 1px solid #ffffff;
+   
+    
+    
 }
